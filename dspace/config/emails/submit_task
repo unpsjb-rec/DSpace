@@ -6,19 +6,19 @@
 ## {3}  Description of task
 ## {4}  link to 'my DSpace' page
 ##
-#set($subject = 'DSpace: You have a new task')
+#set($subject = 'DSpace RDI UNPSJB: Tiene una nueva tarea')
 
-A new item has been submitted:
+Un nuevo ítem ha sido enviado:
 
-Title:        ${params[0]}
-Collection:   ${params[1]}
-Submitted by: ${params[2]}
+Título:      ${params[0]}
+Colección:   ${params[1]}
+Enviado por: ${params[2]}
 
 ${params[3]}
 
-To claim this task, please visit your "My DSpace"
-page:  ${params[4]}
+Para tomar esta tarea, por favor visite la página
+"Envíos": ${params[4]}
 
-Many thanks!
+Muchas gracias.
 
-DSpace
+DSpace RDI UNPSJB
