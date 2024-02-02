@@ -10,17 +10,17 @@
 ##
 ## See org.dspace.core.Email for information on the format of this file.
 ##
-#set($subject = 'Formulario de información de Feedback')
+#set($subject = 'Feedback Form Information')
 
-Comentarios:
+Comments:
 
 ${params[6]}
 
 
-Fecha: ${params[0]}
+Date: ${params[0]}
 Email: ${params[1]}
-Iniciado en sesión como: ${params[2]}
-Página referida: ${params[3]}
+Logged In As: ${params[2]}
+Referring Page: ${params[3]}
 User Agent: ${params[4]}
 Session: ${params[5]}
 

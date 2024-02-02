@@ -8,11 +8,11 @@
 ##             {4} the approver's email address
 ## See org.dspace.core.Email for information on the format of this file.
 ##
-#set($subject = 'Solicitud para Acceso Abierto')
+#set($subject = 'Request for Open Access')
 
-${params[3]}, con la dirección ${params[4]},
-ha solicitado que el siguiente documento/archivo esté disponible en Acceso Abierto:
+${params[3]}, with address ${params[4]},
+requested the following document/file to be in Open Access:
 
-Handle del Documento: ${params[1]}
-ID del archivo: ${params[0]}
-Token: ${params[2]}
+Document Handle:${params[1]}
+File ID: ${params[0]}
+Token:${params[2]}

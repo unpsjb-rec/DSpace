@@ -4,18 +4,18 @@
 ## {1}  Name of collection
 ## {2}  handle
 ##
-#set($subject = 'DSpace: Submission Approved and Archived')
+#set($subject = 'DSpace RDI UNPSJB: Envío aprobado y archivado')
 
-You submitted: ${params[0]}
+Usted ha enviado: ${params[0]}
 
-To collection: ${params[1]}
+A la Colección: ${params[1]}
 
-Your submission has been accepted and archived in DSpace,
-and it has been assigned the following identifier:
-${params[2]}
+Su envío ha sido aceptado y archivado en CIC-Digital,
+a partir de este momento se encontrará siempre disponible en el siguiente enlace: 
+    ${params[2]}
 
-Please use this identifier when citing your submission.
+Por favor, sírvace de utilizar este enlace cuando realice una cita del material enviado.
 
-Many thanks!
+Muchas Gracias.
 
-DSpace
+DSpace RDI UNPSJB

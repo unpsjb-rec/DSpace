@@ -12,7 +12,7 @@
 ##
 #set($subject = "DSpace: Error ${params[0]} DOI ${params[3]}")
 
-Fecha:    ${params[1]}
+Date:    ${params[1]}
 
-${params[0]} DOI ${params[4]} para ${params[2]} con ID ${params[3]} falló:
+${params[0]} DOI ${params[4]} for ${params[2]} with ID ${params[3]} failed:
 ${params[5]}

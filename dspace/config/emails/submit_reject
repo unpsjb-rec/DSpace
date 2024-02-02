@@ -6,18 +6,17 @@
 ## {3}  Reason for the rejection
 ## {4}  Link to 'My DSpace' page
 ##
-#set($subject = 'DSpace: Submission Rejected')
+#set($subject = 'DSpace RDI UNPSJB: Envío rechazado')
 
-You submitted: ${params[0]}
+Usted ha enviado: ${params[0]}
 
-To collection: ${params[1]}
+A la Colección: ${params[1]}
 
-Your submission has been rejected by ${params[2]}
-with the following explanation:
+Su envío ha sido rechazado por ${params[2]} con la siguiente explicación:
 
 ${params[3]}
 
-Your submission has not been deleted.  You can access it from your
-"My DSpace" page: ${params[4]}
+Su envío no ha sido borrado. Puede acceder al mismo desde
+la página "Envíos" dentro del menú de perfil de usuario :${params[4]}
 
-DSpace
+DSpace RDI UNPSJB
